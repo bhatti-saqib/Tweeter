@@ -20,6 +20,7 @@ class LoginViewController: UIViewController {
         loginButton.layer.masksToBounds = true
     }
 
+    // MARK: Target-Actions
     
     @IBAction private func onLoginTap(sender: AnyObject?) {
         
