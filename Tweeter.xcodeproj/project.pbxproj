@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		D49F5D622259CD3D008ADB17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49F5D612259CD3D008ADB17 /* AppDelegate.swift */; };
-		D49F5D642259CD3D008ADB17 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49F5D632259CD3D008ADB17 /* LoginViewController.swift */; };
 		D49F5D672259CD3D008ADB17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D49F5D652259CD3D008ADB17 /* Main.storyboard */; };
 		D49F5D692259CD5F008ADB17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D49F5D682259CD5F008ADB17 /* Assets.xcassets */; };
 		D49F5D6C2259CD5F008ADB17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D49F5D6A2259CD5F008ADB17 /* LaunchScreen.storyboard */; };
+		D49F5D76225A2A2F008ADB17 /* TweetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49F5D75225A2A2F008ADB17 /* TweetsViewController.swift */; };
+		D49F5D78225A2A4C008ADB17 /* TweetsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49F5D77225A2A4C008ADB17 /* TweetsCell.swift */; };
+		D49F5D7A225A734C008ADB17 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49F5D79225A734C008ADB17 /* PostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D49F5D5E2259CD3D008ADB17 /* Tweeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tweeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D49F5D612259CD3D008ADB17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D49F5D632259CD3D008ADB17 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D49F5D662259CD3D008ADB17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D49F5D682259CD5F008ADB17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D49F5D6B2259CD5F008ADB17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D49F5D6D2259CD5F008ADB17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D49F5D75225A2A2F008ADB17 /* TweetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsViewController.swift; sourceTree = "<group>"; };
+		D49F5D77225A2A4C008ADB17 /* TweetsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetsCell.swift; sourceTree = "<group>"; };
+		D49F5D79225A734C008ADB17 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +72,7 @@
 		D49F5D732259E7AA008ADB17 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D49F5D632259CD3D008ADB17 /* LoginViewController.swift */,
+				D49F5D79225A734C008ADB17 /* PostViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -76,6 +80,8 @@
 		D49F5D742259F3C8008ADB17 /* TweetsViewController */ = {
 			isa = PBXGroup;
 			children = (
+				D49F5D75225A2A2F008ADB17 /* TweetsViewController.swift */,
+				D49F5D77225A2A4C008ADB17 /* TweetsCell.swift */,
 			);
 			path = TweetsViewController;
 			sourceTree = "<group>";
@@ -151,8 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D49F5D642259CD3D008ADB17 /* LoginViewController.swift in Sources */,
+				D49F5D7A225A734C008ADB17 /* PostViewController.swift in Sources */,
 				D49F5D622259CD3D008ADB17 /* AppDelegate.swift in Sources */,
+				D49F5D76225A2A2F008ADB17 /* TweetsViewController.swift in Sources */,
+				D49F5D78225A2A4C008ADB17 /* TweetsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
